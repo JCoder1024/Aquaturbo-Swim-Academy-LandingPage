@@ -19,6 +19,7 @@ export const en = {
       { href: "#about", label: "About Us" },
       { href: "#program", label: "Program" },
       { href: "#team", label: "Team" },
+      { href: "#campus", label: "Campus" },
       { href: "#contact", label: "Contact" },
     ],
     auth: "Sign In / Sign up",
@@ -26,9 +27,9 @@ export const en = {
   hero: {
     badge: "New",
     badgeText: "New season courses are now available",
-    titleBefore: "Experience the",
-    titleAccent: "Aquaturbo",
-    titleAfter: "landing page",
+    titleBefore: "Learn to swim",
+    titleAccent: "efficiently",
+    titleAfter: "",
     subtitle:
       "From first water confidence to competitive development, Aquaturbo combines expert coaching, level-based programs, and safe training to help every swimmer move with confidence, efficiency, and joy.",
     getStarted: "Join Now",
@@ -103,35 +104,30 @@ export const en = {
     ],
   },
   services: {
-    eyebrow: "Professional Coaching",
-    title: "Professional Support at Every Stage",
+    eyebrow: "Teaching Advantages",
+    title: "A Better Way to Learn and Improve",
     description:
-      "From skill assessment and level-based instruction to technique refinement and progress tracking, we help every swimmer improve through safe, structured coaching.",
-    pro: "PRO",
+      "Systematic programs, expert coaches, small-group instruction, and multilingual support help every swimmer learn clearly and progress with confidence.",
     items: [
       {
-        title: "Swim Ability Assessment",
+        title: "Systematic Teaching Framework",
         description:
-          "We assess water confidence, breathing, and foundational strokes to identify the right starting level for each swimmer.",
-        pro: false,
+          "Clear learning paths match each swimmer's level and goals, building skills step by step from water confidence to advanced strokes.",
       },
       {
-        title: "Level-Based Small Groups",
+        title: "Competition-Experienced Coaching Team",
         description:
-          "Swimmers train with others at a similar level, balancing safety, focused practice, and individual coaching attention.",
-        pro: false,
+          "Our coaches bring professional training and competitive experience to every lesson, with precise demonstrations, observation, and technique correction.",
       },
       {
-        title: "Stroke Technique Analysis",
+        title: "Small-Group Instruction",
         description:
-          "Detailed feedback on body position, strokes, kicks, and breathing improves efficiency, control, and consistency.",
-        pro: false,
+          "Limited class sizes create more practice time and individual attention, helping coaches closely follow each swimmer's progress.",
       },
       {
-        title: "Personal Progression Plan",
+        title: "Multilingual Instruction",
         description:
-          "Stage-based goals, adjusted training intensity, and progress tracking help each swimmer continue reaching new milestones.",
-        pro: true,
+          "Most coaches support instruction in English, Mandarin, and Cantonese, making technique and safety guidance easier to understand.",
       },
     ],
   },
@@ -185,16 +181,28 @@ export const en = {
   },
   team: {
     eyebrow: "Team",
-    title: "Dream Coaching Team",
-    members: [
-      ["Swimming Teacher"],
-      ["Swimming Teacher"],
-      ["Swimming Teacher"],
-      ["Swimming Teacher"],
-      ["Swimming Teacher"],
-      ["Swimming Teacher"],
-      ["Swimming Teacher"],
-      ["Swimming Teacher"],
+    title: "Professional Coaches for Every Stage of Progress",
+    description:
+      "Aquaturbo brings together coaches with professional training and competitive experience. We focus on safety, sound technique, and each swimmer's learning pace, providing clear demonstrations, attentive observation, and timely feedback at every stage.",
+  },
+  campus: {
+    eyebrow: "Our Campus",
+    title: "A professional pool for confident progress",
+    items: [
+      {
+        image: "/campus1.png",
+        imageAlt: "Aquaturbo Richmond campus pool",
+        title: "Richmond Campus",
+        description:
+          "Located in Richmond, our campus offers a bright, clean indoor pool environment for level-based training.",
+      },
+      {
+        image: "/hero-image.webp",
+        imageAlt: "Coach guiding a swimmer beside the pool",
+        title: "Focused Teaching Space",
+        description:
+          "From water confidence to stroke refinement, coaches provide clear demonstrations and timely guidance in every session.",
+      },
     ],
   },
   community: {

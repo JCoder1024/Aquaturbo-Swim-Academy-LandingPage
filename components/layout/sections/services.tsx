@@ -1,9 +1,7 @@
 "use client";
 
-import { Badge } from "@/components/ui/badge";
 import {
   Card,
-  CardDescription,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -26,22 +24,15 @@ export const ServicesSection = () => {
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-4 w-full lg:w-[60%] mx-auto">
-        {t.services.items.map(({ title, description, pro }) => (
+        {t.services.items.map(({ title, description }) => (
           <Card
             key={title}
             className="bg-muted/60 dark:bg-card h-full relative"
           >
             <CardHeader>
               <CardTitle>{title}</CardTitle>
-              <CardDescription>{description}</CardDescription>
+              <p className="text-sm text-muted-foreground">{description}</p>
             </CardHeader>
-            <Badge
-              data-pro={pro}
-              variant="default"
-              className="absolute -top-2 -right-3 data-[pro=false]:hidden"
-            >
-              {t.services.pro}
-            </Badge>
           </Card>
         ))}
       </div>

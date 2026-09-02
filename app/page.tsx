@@ -5,6 +5,7 @@ import { FooterSection } from "@/components/layout/sections/footer";
 import { HeroSection } from "@/components/layout/sections/hero";
 import { ServicesSection } from "@/components/layout/sections/services";
 import { TeamSection } from "@/components/layout/sections/team";
+import { CampusSection } from "@/components/layout/sections/campus";
 
 export const metadata = {
   title: "Aquaturbo Swim Academy",
@@ -42,6 +43,7 @@ export default function Home() {
       <ServicesSection />
       <ProgramSection />
       <TeamSection />
+      <CampusSection />
       <ContactSection />
       <FooterSection />
     </>

@@ -21,6 +21,7 @@ export const zhTW = {
       { href: "#about", label: "關於我們" },
       { href: "#program", label: "課程" },
       { href: "#team", label: "團隊" },
+      { href: "#campus", label: "校區" },
       { href: "#contact", label: "聯絡" },
     ],
     auth: "登錄 / 註冊",
@@ -28,9 +29,9 @@ export const zhTW = {
   hero: {
     badge: "全新",
     badgeText: "新季度課程已推出",
-    titleBefore: "體驗",
-    titleAccent: "Aquaturbo",
-    titleAfter: "游泳課程",
+    titleBefore: "更",
+    titleAccent: "高效的",
+    titleAfter: "學會游泳",
     subtitle:
       "從初次親水到競技進階，Aquaturbo 以專業教練、分級課程與安全訓練，陪伴每位學員建立水中自信，游得更穩、更快、更自在。",
     getStarted: "立即參加",
@@ -97,31 +98,30 @@ export const zhTW = {
     ],
   },
   services: {
-    eyebrow: "專業訓練",
-    title: "為每個階段提供專業支持",
+    eyebrow: "教學特色",
+    title: "更專業、更專注的學習體驗",
     description:
-      "從能力評估、分級教學到技術修正與進度追蹤，我們用安全、有系統的方式陪伴每位學員持續提升。",
-    pro: "進階",
+      "結合系統化課程、專業教練、小班指導與多語教學，讓每位學員都能清楚理解、充分練習並穩定進步。",
     items: [
       {
-        title: "游泳能力評估",
-        description: "透過水感、呼吸與基礎泳姿評估，了解學員目前程度並安排合適的訓練起點。",
-        pro: false,
+        title: "系統化的教學體系",
+        description:
+          "依照學員程度與目標規劃清晰的學習路徑，從基礎水感到泳姿進階循序訓練，穩定累積游泳能力。",
       },
       {
-        title: "分級小班教學",
-        description: "依能力安排程度相近的學員共同訓練，兼顧安全、練習密度與個別指導。",
-        pro: false,
+        title: "專業競技背景教練團隊",
+        description:
+          "教練具備專業訓練與競技經驗，能精準示範、觀察並修正動作，協助學員建立正確且有效率的游泳技術。",
       },
       {
-        title: "泳姿技術分析",
-        description: "針對身體位置、划手、踢腿與換氣進行動作修正，提升游泳效率與穩定度。",
-        pro: false,
+        title: "小班制教學",
+        description:
+          "控制每班人數，提升實際練習密度與個別指導時間，讓教練能充分掌握每位學員的學習進度。",
       },
       {
-        title: "個人化進階計畫",
-        description: "依照學員目標設定階段任務、調整訓練強度並追蹤成果，持續突破個人表現。",
-        pro: true,
+        title: "多元語言教學",
+        description:
+          "多數教練支援英語、普通話及粵語教學，讓學員能以熟悉的語言理解動作要領與安全指示。",
       },
     ],
   },
@@ -175,16 +175,28 @@ export const zhTW = {
   },
   team: {
     eyebrow: "團隊",
-    title: "夢幻教練陣容",
-    members: [
-      ["游泳教練"],
-      ["游泳教練"],
-      ["游泳教練"],
-      ["游泳教練"],
-      ["游泳教練"],
-      ["游泳教練"],
-      ["游泳教練"],
-      ["游泳教練"],
+    title: "專業教練團隊，陪伴每一次進步",
+    description:
+      "Aquaturbo 由具備專業訓練與競技經驗的教練共同授課。我們重視安全、正確技術與個別學習節奏，透過清楚示範、細緻觀察與即時調整，陪伴每位學員建立水中自信並持續進步。",
+  },
+  campus: {
+    eyebrow: "我們的校區",
+    title: "在專業泳池裡，安心開始每一次練習",
+    items: [
+      {
+        image: "/campus1.png",
+        imageAlt: "Aquaturbo Richmond 校區泳池",
+        title: "Richmond 校區",
+        description:
+          "校區位於 Richmond，提供明亮、整潔且適合分級訓練的室內泳池環境。",
+      },
+      {
+        image: "/hero-image.webp",
+        imageAlt: "教練在泳池旁指導學員",
+        title: "清楚、專注的教學空間",
+        description:
+          "從親水練習到技術修正，教練在每一次訓練中提供清楚示範與即時指導。",
+      },
     ],
   },
   community: {
