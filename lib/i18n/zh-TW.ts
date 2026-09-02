@@ -38,6 +38,11 @@ export const zhTW = {
     contact: "聯繫我們",
     imageAlt: "儀表板",
   },
+  aboutHero: {
+    kicker: "",
+    title: "我們的系統化教學",
+    tagline: "有效地學，進步得更快",
+  },
   sponsors: {
     title: "白金贊助夥伴",
   },

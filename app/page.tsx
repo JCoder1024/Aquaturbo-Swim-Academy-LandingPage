@@ -6,6 +6,7 @@ import { HeroSection } from "@/components/layout/sections/hero";
 import { ServicesSection } from "@/components/layout/sections/services";
 import { TeamSection } from "@/components/layout/sections/team";
 import { CampusSection } from "@/components/layout/sections/campus";
+import { AboutHeroSection } from "@/components/layout/sections/about-hero";
 
 export const metadata = {
   title: "Aquaturbo Swim Academy",
@@ -38,6 +39,7 @@ export const metadata = {
 export default function Home() {
   return (
     <>
+      <AboutHeroSection />
       <HeroSection />
       <BenefitsSection />
       <ServicesSection />
