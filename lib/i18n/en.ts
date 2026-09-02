@@ -36,6 +36,11 @@ export const en = {
     contact: "Contact Us",
     imageAlt: "dashboard",
   },
+  aboutHero: {
+    kicker: "Our",
+    title: "Systematic Swim Training",
+    tagline: "Learn Smarter, Progress Faster.",
+  },
   sponsors: {
     title: "Our Platinum Sponsors",
   },
